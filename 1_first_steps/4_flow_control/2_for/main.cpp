@@ -2,9 +2,9 @@
 
 int main() {
     int sum = 0;
-    // сложить числа от 1 до 10 включительно
+    // СЃР»РѕР¶РёС‚СЊ С‡РёСЃР»Р° РѕС‚ 1 РґРѕ 10 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ
     for (int val = 1; val <= 10; ++val) {
-        sum += val; // эквивалентно sum = sum + val
+        sum += val; // СЌРєРІРёРІР°Р»РµРЅС‚РЅРѕ sum = sum + val
     }
     std::cout << "Sum of 1 to 10 inclusive is "
               << sum << std::endl;
